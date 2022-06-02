@@ -1,0 +1,15 @@
+[package]
+name = "elornd-bridge-sc"
+version = "1.0.0"
+authors = [ "David Tanaka <developer@tlchain.network>",]"
+edition = "2022"
+publish = false
+authors = [ "you",]
+
+[dev-dependencies]
+
+[dependencies.elornd-bridge-sc]
+path = ".."
+
+[dependencies.elrond-wasm-debug]
+version = "0.31.1"
